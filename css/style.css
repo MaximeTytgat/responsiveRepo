@@ -1,162 +1,43 @@
-
-body {
+* {
   margin: 0;
   padding: 0;
-  font-size: 20px;
-  color: grey;
-  font-family: helvetica, roboto;
-  box-sizing: border-box;
 }
 
-body * {
-  border: 1px dashed orange;
-  min-height: 20px;
-  padding: 10px 0;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-h2, 
-h3 {
-  text-transform: uppercase;
-}
-
-h2 {
-  font-size: 45px;
-}
-
-.sidebar {
-  height: 50px;
-  background-color: grey;
-}
-
-.sidebar img {
-  width: 50%;
-  margin-top: 20px;
-  border-radius: 5px;
-}
-
-.sidebar ul {
-  margin-top: 50%;
-  float: right;
-  text-align: right;
-  margin-right: 20px;
-}
-
-.sidebar li {
-  margin: 20px 0;
-}
-
-.sidebar h2 {
-  text-transform: none;
-  font-size: 25px;
-}
-
-.sidebar p {
-  margin: 20px;
-}
-
-
-
-.part {
-  margin: 50px;
-  padding: 50px;
-  text-align: center;
-}
-
-.title {
-  color: rgba(185,34,34,1);
-  margin-bottom: 100px;
-}
-
-.title hr {
-  width: 40%;
-  border-color: rgba(185,34,34,1);
-}
-
-.resize {
-  height: 200px;
-}
-
-.portfolio {
-  width: 45%;
-  margin: auto;
-}
-
-.year, 
-.boss {
-  width: 45%;
-  float: left;
-  margin: 2%;
-}
-
-.year {
-  text-align: right;
-}
-
-.boss {
-  text-align: left;
-}
-
-.hobbie {
-  width: 29.5%;
-  margin: 1.5%;
-  float: left;
-}
-
-.contact * {
-  margin: 0 auto;
-}
-
-.contact a {
-  color: grey;
-}
-
-.icon {
-  width: 38%;
-  float: left;
-  margin: 0 5%;
-}
-
-.icon img {
-  width: 100px;
-  height: 100px;
-}
-
-.info {
-  width: 38%;
-  float: left;
-  margin: 0 5%;
-}
-
-.stop {
-  clear: both;
-}
-
-@media screen and (min-width: 768px) {
-  .job {
-    width: 39%;
-    float: left;
-    margin: 10px 5%;
-  }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+body {
   
 }
 
-@media screen and (min-width: 1200px) {
-  .job {
-    width: 24%;
-    float: left;
-    margin: 10px 2.5%;
-  }
+body * {
+    border: 1px solid rgb(117, 87, 87);
+    min-height: 20px;
+}
 
+.container {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.container div {
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .container div {
+    width: 32%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    padding: 50px; 
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    padding: 100px; 
+  }
 }
