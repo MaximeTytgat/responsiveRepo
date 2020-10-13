@@ -22,7 +22,7 @@ body * {
   width: 90%;
 }
 
-div {
+.container div {
   display: inline-block;
   width: 32%;
   height: 150px;
